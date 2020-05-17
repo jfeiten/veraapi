@@ -3,8 +3,6 @@ hello <- function() {
   print("Hello, world!")
 }
 
-load("data/links_rf_model.RData")
-
 predictLink <- function(link, cutoff=0.5){
 
   # Pre-processing a new link
